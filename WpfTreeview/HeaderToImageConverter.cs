@@ -24,7 +24,7 @@ namespace WpfTreeview
 				return null;
 
 			// Get thge name of hte file/folder
-			var name = MainWindow.GetFileFolderName(path);
+			var name = DirectoryStructure.GetFileFolderName(path);
 
 			// By default, we presume an image
 			var image = "Images/file.png";
